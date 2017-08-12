@@ -9,6 +9,9 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
+  <!-- adsense start -->
+	  {% include '_partials/google_adsense.swig' %}
+	<!-- adsense end -->
   {% include '_third-party/analytics/index.swig' %}
 </head>
 
